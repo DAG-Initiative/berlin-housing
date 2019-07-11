@@ -1,5 +1,5 @@
-main\test\TestController.class
-main\test\TestSet$Properties.class
-main\test\TestSet.class
-main\Application.class
-main\test\TestSet$Geometry.class
+main/Application.class
+main/test/TestSet$Properties.class
+main/test/TestSet.class
+main/test/TestSet$Geometry.class
+main/test/TestController.class
