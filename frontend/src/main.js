@@ -3,6 +3,8 @@ import './plugins/vuetify'
 import App from './App.vue'
 import Vuetify from 'vuetify'
 
+require('./styles/mapStyles.css')
+
 Vue.use(Vuetify)
 // index.js or main.js
 import 'vuetify/dist/vuetify.min.css' // Ensure you are using css-loader

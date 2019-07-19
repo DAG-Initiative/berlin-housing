@@ -21,6 +21,7 @@
     import {icon, marker, circleMarker} from "leaflet";
     import {LMap, LTileLayer, LGeoJson} from "vue2-leaflet";
     import axios from "axios";
+    import luftbelastung from '../assets/geojson/luftbelastung'
 
 
     import PopupContent from "./GeoJson2Popup";
@@ -55,7 +56,7 @@
         },
         data() {
             return {
-                geojson: null,
+                geojson: luftbelastung,
                 zoom: 6,
                 center: [53, 13],
                 url:
@@ -109,14 +110,14 @@
             };
         },
         created() {
-            axios
+           /* axios
                 .get(
                     "http://localhost:1992/testset"
                 )
                 .then(response => {
                     this.geojson = response.data;
                     console.log("Geojson kommt ", response.data)
-                });
+                });*/
         }
     };
 </script>
