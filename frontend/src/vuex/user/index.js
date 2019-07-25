@@ -4,7 +4,7 @@ export default {
     },
     mutations: {
         setRealEstateModalState(state, payload) {
-            state.user = payload
+            state.realEstateModalState = payload
         },
 
     },

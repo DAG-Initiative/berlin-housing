@@ -48,7 +48,6 @@
                             <v-list-tile
                                     v-for="(building, i) in buildings"
                                     :key="i"
-                                    @click=""
                             >
                                 <v-list-tile-title v-text="building[0]"></v-list-tile-title>
                                 <v-list-tile-action>
@@ -72,7 +71,6 @@
                             <v-list-tile
                                     v-for="(environment, i) in environments"
                                     :key="i"
-                                    @click=""
                             >
                                 <v-list-tile-title v-text="environment[0]"></v-list-tile-title>
                                 <v-list-tile-action>
